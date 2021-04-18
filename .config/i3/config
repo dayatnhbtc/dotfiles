@@ -13,8 +13,8 @@ exec --no-startup-id picom &
 bindsym $mod+d exec --no-startup-id rofi -show drun
 
 # app shortcut 
-#bindsym Print exec --no-startup-id flameshot gui
-bindsym Print exec --no-startup-id ~/Download/awesome-flameshot
+bindsym Print exec --no-startup-id flameshot gui
+#bindsym Print exec --no-startup-id ~/Download/awesome-flameshot
 
 # wallpaper 
 exec --no-startup-id nitrogen --restore & 
