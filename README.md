@@ -2,8 +2,8 @@
 dotfiles my arch linux
 
 ## Screenshots
-![](https://imgur.com/nxFsLBM)
-![](https://imgur.com/2jWyK7m)
+![](https://imgur.com/nxFsLBM.jpg)
+![](https://imgur.com/2jWyK7m.jpg)
 
 ## Details  
 |Item|Value| 
