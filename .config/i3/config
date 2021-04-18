@@ -6,11 +6,15 @@ font pango:DejaVuSansMono Nerd Font Mono 11
 
 # start up app
 exec --no-startup-id nm-applet
-#exec --no-startup-id xrandr --output eDP1 --primary --mode 1600x900
 exec --no-startup-id flameshot
+exec --no-startup-id picom &
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id rofi -show drun
+
+# app shortcut 
+#bindsym Print exec --no-startup-id flameshot gui
+bindsym Print exec --no-startup-id ~/Download/awesome-flameshot
 
 # wallpaper 
 exec --no-startup-id nitrogen --restore & 
@@ -28,7 +32,7 @@ for_window [class="^.*"] border pixel 3
 gaps inner 20 
 
 # setting window 
-for_window [class="obsidian"] floating enable
+for_window [class="obsidian"] floating disable
 
 # kill window
 bindsym $mod+Shift+q kill
@@ -88,6 +92,7 @@ bar {
 	status_command i3status
 	position top
 	font pango: Ubuntu Nerd Font 11 
+	status_command exec ~/.config/i3status/net-speed.sh	
 
 	colors {
     	background #282A36
