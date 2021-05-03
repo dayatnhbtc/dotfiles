@@ -1,5 +1,5 @@
 # Day'z dotfiles
-dotfiles my arch linux
+komfigurasi sederhada dari wm saya :)  
 
 ## Screenshots
 ![](https://imgur.com/nxFsLBM.jpg)
@@ -12,7 +12,7 @@ dotfiles my arch linux
 |bar | i3status|
 |file manager|ranger|
 |font | Nerd Fonts|
-| terminal | termite|
+| terminal emulator | termite|
 
 
 ## Packages & Dependencies   
