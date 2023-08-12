@@ -1,21 +1,12 @@
-# Day'z dotfiles
-komfigurasi sederhada dari wm saya :)  
+### Code editor 
+VSCode 
 
-## Screenshots
-![](https://imgur.com/nxFsLBM.jpg)
-![](https://imgur.com/2jWyK7m.jpg)
+### OS 
+Windows 11 
+WSL Ubuntu 
 
-## Details  
-|Item|Value| 
-|-|-|
-|WM | i3-gaps|
-|bar | i3status|
-|file manager|ranger|
-|font | Nerd Fonts|
-| terminal emulator | termite|
+### Fonts
+https://www.jetbrains.com/lp/mono/
 
-
-## Packages & Dependencies   
-| Dependency | Description |
-|-|-|
- 
+### Color Scheme 
+One Dark Pro Flat
